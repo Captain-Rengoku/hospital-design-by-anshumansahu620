@@ -1,0 +1,194 @@
+.top{
+    display: grid;
+    height: 50px;
+    background-color: rgb(237, 250, 245);
+    display:flex;align-items: center;
+    justify-content: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+    color: rgb(29, 59, 91);
+    font-size: 20px;
+
+}
+*{
+    margin-top: 0;
+    margin-left:0;
+
+}
+.contentdisplay{
+    height:40px;
+    background-color: rgb(76, 138, 214);
+    display: flex;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    align-items: center;
+
+    color: white;
+    font-size: 10px;
+
+}
+
+.searchbox{
+    margin-left: 400px;
+    display: flex;
+    align-items: center;
+}
+#searchbox {
+    color: white;
+}
+
+#searchbox{
+    margin-left: 300px;
+    height: 22.5px;
+
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    border: 2px solid black;
+    background-color: white;
+    border-radius: 4px;
+    
+    float: left;
+    color: rgb(35, 53, 71);
+}
+
+
+#searchbutton{
+    height: 24px;
+    text-align: center;
+    color: rgb(53, 42, 27);
+    
+    border-radius:2px;
+    background-color: rgb(245, 205, 124);
+    border-style: none;
+    font-size: 5px;
+
+    
+
+}
+.login{
+    margin-left: 750px;
+    background-color: rgb(145, 143, 143);
+    color: rgb(255, 255, 255);
+}
+.sliding{
+    
+    height: 500px;
+    background-image: linear-gradient(to bottom , rgb(255, 255, 255), rgb(152, 226, 228));
+    border: 2px solid transparent;
+    display: flex;
+    align-items: center;
+    
+
+
+}
+.hospital{
+    
+    margin-left: 40px;
+    height:350px;
+    width: 400px;
+    border: 2px solid;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 3px;
+    
+}
+.hospital-moto{
+    text-align: center;
+    margin-left: 200px;
+    height:350px;
+    width: 700px;
+    color:rgb(17, 59, 97);
+    background-image: url(Higuen\ Elegant\ Serif.png);
+    background-size:contain ;
+    background-size:cover ;
+    background-repeat: no-repeat;
+    align:center;
+    border-radius: 10px;
+    border: 2px solid gray;
+}
+
+
+footer{
+    background-color: rgb(5, 33, 72);
+    border:transparent;
+    color: white;
+    height: 400px
+}
+.displayOnHover button{
+
+    text-align: center;
+    color: white;
+    
+    margin-left: 40px;
+    border-radius: 4px;
+    border:2px solid transparent;
+    display: inline-block;
+    background-color: transparent;
+    transition: .5s ease-in-out;
+    padding: 2px;
+    cursor: pointer;
+
+
+}  
+.displayOnHover button:hover{
+    border:2px solid white;
+}  
+
+.displayOnHover a{
+    text-align: center;
+    height:20px;
+    display: block;
+    color: rgb(21, 53, 108);
+    background-color: rgb(229, 239, 246);
+    text-decoration: none;
+
+}
+.displayOnHover .items {
+    position:absolute ;
+    min-width: 100px;
+    display:none;
+}
+.items{
+
+    font-size: 13px;
+    text-align: center;
+}
+
+.displayOnHover:hover .items{
+    display: block;
+}
+
+pre{font-size: 20px;
+    color: white;
+    text-align: center;
+
+        font-family: "Cedarville Cursive", cursive;
+        font-weight: 400;
+        font-style: normal;
+    
+      
+}
+
+
+footer{
+    text-align: center;
+    display: grid;
+}
+.slider{
+    background-color: transparent;
+}
+.login{
+    font-size: 15px;
+    height:20px;
+    padding:5px 5px;
+    border-radius: 4px;
+    text-decoration: none;
+    border: 2px solid transparent;
+    transition: .2s ease-in-out;
+}
+.login:hover{
+    background-color: aliceblue;
+    border:white;
+    color:black;
+    
+}
