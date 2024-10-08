@@ -92,9 +92,24 @@
     box-shadow: 3px;
     
 }
+.left,.right{
+    font-size: 20px;
+    text-align: center;
+
+
+    background-color: transparent;
+    border:solid transparent;
+    transition: .2s ease-in-out;
+}
+.left:hover,.right:hover{
+    font-size:25px ;
+}
+.left{
+    margin-left: 200px;
+}
 .hospital-moto{
     text-align: center;
-    margin-left: 200px;
+    margin-left: 0px;
     height:350px;
     width: 700px;
     color:rgb(17, 59, 97);
